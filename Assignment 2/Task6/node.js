@@ -1,8 +1,10 @@
-const myObject = {
-    name : "Adil",
-    age : 32,
-    gender : "male",
-    profession : "Doctor" 
-  }
-  
-  localStorage.setItem("myObject", JSON.stringify(myObject));
+let students =[];
+function provideStudent() {
+   let std = {
+    name: "Adil",
+    rollNo: 56,
+    teacher: "Nadeem Ahmed",
+    className: CSS,
+  };
+}
+  localStorage.setItem("name", "Adil");
